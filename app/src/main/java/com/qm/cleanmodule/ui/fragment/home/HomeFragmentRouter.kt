@@ -8,7 +8,7 @@ object HomeFragmentRouter {
         // navigate to details screen
     }
 
-    fun closeCurrent() {
+    fun closeCurrent(f: HomeFragment) {
         // close current fragment / activity based on the need
     }
 
