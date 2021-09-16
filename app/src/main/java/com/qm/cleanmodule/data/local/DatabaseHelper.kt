@@ -2,7 +2,7 @@ package com.qm.cleanmodule.data.local
 
 import com.qm.cleanmodule.data.local.entity.CalendarItem
 
-//MARK:- DatabaseHelper @Docs
+// DatabaseHelper @Docs
 interface DatabaseHelper {
 
     suspend fun getCalendarDays(): List<CalendarItem>

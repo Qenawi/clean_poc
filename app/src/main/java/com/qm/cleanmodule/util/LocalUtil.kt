@@ -14,7 +14,7 @@ import com.qm.cleanmodule.util.SharedPrefUtil.setPrefLanguage
 import java.util.*
 
 /**
- * Created by MahmoudAyman on 7/17/2020.
+ * Created by ninja on 7/17/2020.
  **/
 object LocalUtil {
 

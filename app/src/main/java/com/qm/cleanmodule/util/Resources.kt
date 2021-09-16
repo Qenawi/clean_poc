@@ -1,7 +1,7 @@
 package com.qm.cleanmodule.util
 
 /**
- * Created by MahmoudAyman on 6/29/2020.
+ * Created by ninja on 6/29/2020.
  **/
 sealed class Resource<T>(
         val data: T? = null,

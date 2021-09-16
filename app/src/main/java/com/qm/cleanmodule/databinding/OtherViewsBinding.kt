@@ -36,7 +36,7 @@ import com.tenclouds.fluidbottomnavigation.FluidBottomNavigationItem
 import timber.log.Timber
 
 /**
- * Created by MahmoudAyman on 6/18/2020.
+ * Created by ninja on 6/18/2020.
  **/
 
 class OtherViewsBinding {

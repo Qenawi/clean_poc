@@ -57,7 +57,7 @@ import timber.log.Timber
 import java.io.File
 import java.lang.reflect.ParameterizedType
 
-//MARK:- Activity @Docs
+// Activity @Docs
 fun Activity.showActivity(
     destActivity: Class<out AppCompatActivity>,
     intent: Intent = Intent(this, destActivity)

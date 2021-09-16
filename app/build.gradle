@@ -44,7 +44,7 @@ android {
   buildFeatures {
     dataBinding = true
   }
-  //Mark:- include Android resources in unit test
+  // include Android resources in unit test
   testOptions {
     unitTests.includeAndroidResources = true
     unitTests.returnDefaultValues = true
@@ -93,10 +93,10 @@ dependencies {
     implementation (external.circularImage)
 
   //MARK: Test Dependencies
-  //MARK:- Local Test using junit Frame work
+  // Local Test using junit Frame work
   testImplementation(test.junit)
   testImplementation(test.mockito)
-  //MARK:- instrument Test
+  // instrument Test
   testImplementation(test.supportAnnotations)
   testImplementation(test.runners)
   def hilt_version = '2.35'

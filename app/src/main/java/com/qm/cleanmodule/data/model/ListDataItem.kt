@@ -1,6 +1,6 @@
 package com.qm.cleanmodule.data.model
 
-//MARK:- ListDataItem @Docs
+// ListDataItem @Docs
 data class ListDataItem(var id: Int? = null, var name: String? = null) {
     companion object {
         fun getDummyData(): ArrayList<ListDataItem> = arrayListOf(

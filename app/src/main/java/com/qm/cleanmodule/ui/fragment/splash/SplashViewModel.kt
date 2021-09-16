@@ -6,7 +6,7 @@ import com.qm.cleanmodule.constants.Codes
 import com.qm.cleanmodule.util.KtCoroutine
 import kotlinx.coroutines.delay
 
-//MARK:- SplashViewModel @Docs
+// SplashViewModel @Docs
 class SplashViewModel : BaseViewModel() {
 
   init {

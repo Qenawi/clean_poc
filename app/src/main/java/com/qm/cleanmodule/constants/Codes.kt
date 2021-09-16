@@ -1,6 +1,6 @@
 package com.qm.cleanmodule.constants
 
-//MARK:- Codes @Docs
+// Codes @Docs
 object Codes {
     val LOGIN_SCREEN: Int = 1008
     val BACK_BUTTON_PRESSED: Int = 1006

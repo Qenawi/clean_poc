@@ -3,7 +3,7 @@ package com.qm.cleanmodule.ui.fragment.login
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 
-//MARK:- LoginRequest @Docs
+// LoginRequest @Docs
 @Parcelize
 data class LoginRequest(
   var email: String? = null,

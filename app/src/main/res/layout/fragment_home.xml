@@ -28,6 +28,6 @@
 
         <variable
             name="viewModel"
-            type="com.qm.cleanmodule.ui.fragment.home.HomeViewModel" />
+            type="com.qm.cleanmodule.ui.fragment.home.viewmodel.HomeViewModel" />
     </data>
 </layout>

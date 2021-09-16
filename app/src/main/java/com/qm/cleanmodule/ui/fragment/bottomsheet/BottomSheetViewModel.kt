@@ -8,7 +8,7 @@ import com.qm.cleanmodule.constants.Codes
 import com.qm.cleanmodule.data.model.SearchItemInterface
 import timber.log.Timber
 
-//MARK:- BottomSheetViewModel @Docs
+// BottomSheetViewModel @Docs
 
 class BottomSheetViewModel : BaseViewModel() {
 

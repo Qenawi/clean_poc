@@ -10,7 +10,7 @@ import com.qm.cleanmodule.util.LocalUtil
 import com.qm.cleanmodule.util.bindView
 
 /**
- * Created by MahmoudAyman on 7/17/2020.
+ * Created by ninja on 7/17/2020.
  **/
 
 abstract class BaseActivity<B : ViewDataBinding, VM : ViewModel> : AppCompatActivity() {

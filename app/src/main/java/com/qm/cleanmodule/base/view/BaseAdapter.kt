@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.qm.cleanmodule.BR
 import timber.log.Timber
-//MARK:- BaseAdapter@Docs
+// BaseAdapter@Docs
 abstract class BaseAdapter<T : BaseParcelable>(
     private val itemClick: (T) -> Unit = {}
 ) : ListAdapter<T, BaseViewHolder<T>>(BaseItemCallback()) {

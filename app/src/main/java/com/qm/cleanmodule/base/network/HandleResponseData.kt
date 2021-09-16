@@ -2,7 +2,7 @@ package com.qm.cleanmodule.base.network
 
 import com.qm.cleanmodule.base.network.Status.*
 
-//MARK:- HandleResponseData@Docs
+// HandleResponseData@Docs
 data class HandleResponseData<out T>(
     val status: Status = SUCCESS,
     val data: T? = null,

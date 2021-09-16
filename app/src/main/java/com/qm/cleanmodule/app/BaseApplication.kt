@@ -10,7 +10,7 @@ import io.reactivex.rxjava3.plugins.RxJavaPlugins
 import timber.log.Timber
 import timber.log.Timber.DebugTree
 
-//MARK:-  BaseApplication @Docs
+//  BaseApplication @Docs
 
 @HiltAndroidApp
 open class BaseApplication : Application() {
@@ -22,7 +22,7 @@ open class BaseApplication : Application() {
     }
     DataBindingUtil.setDefaultComponent(AppDataBindingComponent())
     AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
-    //MARK:- handle error with out subscribe
+    // handle error with out subscribe
     RxJavaPlugins.setErrorHandler(Timber::e)
   }
 

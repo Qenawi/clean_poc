@@ -80,6 +80,6 @@
 
         <variable
             name="item"
-            type="com.qm.cleanmodule.ui.fragment.home.HomeItem" />
+            type="com.qm.cleanmodule.ui.fragment.home.model.HomeUIItem" />
     </data>
 </layout>

@@ -9,13 +9,13 @@ import org.mockito.Mock
 import org.mockito.runners.MockitoJUnitRunner
 import org.mockito.Mockito.`when` as mWhen
 
-//MARK:- SRC https://www.softwaretestinghelp.com/login-page-test-cases/
+// SRC https://www.softwaretestinghelp.com/login-page-test-cases/
 @RunWith(MockitoJUnitRunner::class)
 class LoginTestCases {
   @Mock
   private lateinit var ctx: Context
 
-  //MARK:- Functional Test Cases
+  // Functional Test Cases
   /**
    * Verify if a user will be able to login with a valid username and valid password -> (Positive)
    * Verify if a user cannot login with a valid username and an invalid password -> (Negative)
@@ -36,7 +36,7 @@ class LoginTestCases {
   fun loginWithValidCredentialsFail() {
   }
 
-  //MARK:- NON Functional Test Cases (Security)
+  // NON Functional Test Cases (Security)
   /**
    * - Verify if a user cannot enter the characters more than
    * the specified range in each field (Username and Password) -> (Negative)

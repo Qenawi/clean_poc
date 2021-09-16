@@ -4,7 +4,7 @@ import android.content.Context
 import cn.pedant.SweetAlert.SweetAlertDialog
 import com.qm.cleanmodule.R
 
-//MARK:- DialogsExtensions @Docs
+// DialogsExtensions @Docs
 object DialogsExtensions {
   fun Context.showErrorDialog(
     message: String?,

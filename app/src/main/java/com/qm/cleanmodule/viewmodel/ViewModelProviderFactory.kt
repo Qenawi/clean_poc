@@ -8,7 +8,7 @@ import javax.inject.Provider
 import javax.inject.Singleton
 
 
-//MARK:- ViewModelProviderFactory @Docs
+// ViewModelProviderFactory @Docs
 @Singleton
 class ViewModelProviderFactory @Inject constructor(
     private val creators: Map<Class<out ViewModel>, @JvmSuppressWildcards Provider<ViewModel>>

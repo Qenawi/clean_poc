@@ -4,7 +4,7 @@ import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import kotlinx.parcelize.Parcelize
 
-//MARK:- ErrorResponse @Docs
+// ErrorResponse @Docs
 @Parcelize
 data class ErrorResponse(
 

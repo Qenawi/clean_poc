@@ -16,7 +16,7 @@ import timber.log.Timber
 import java.util.*
 import javax.inject.Inject
 
-//MARK:- MainActivity @Docs
+// MainActivity @Docs
 @AndroidEntryPoint
 class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>(),
   NavController.OnDestinationChangedListener {

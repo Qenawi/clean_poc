@@ -8,7 +8,7 @@ import androidx.lifecycle.ViewModel
 import com.bumptech.glide.load.engine.Resource
 
 /**
- * Created by MahmoudAyman on 6/9/2020.
+ * Created by ninja on 6/9/2020.
  **/
 open class BaseViewModel : ViewModel(), Observable {
 

@@ -17,7 +17,7 @@ import com.qm.cleanmodule.constants.Codes
 import com.qm.cleanmodule.databinding.FragmentBottomSheetBinding
 import com.qm.cleanmodule.util.observe
 
-//MARK:- BottomSheetFragment @Docs
+// BottomSheetFragment @Docs
 class BottomSheetFragment : BottomSheetDialogFragment() {
 
     val mViewModel: BottomSheetViewModel by viewModels()

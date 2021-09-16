@@ -4,7 +4,7 @@ import android.os.Parcelable
 import com.qm.cleanmodule.base.view.BaseParcelable
 import kotlinx.parcelize.Parcelize
 
-// MARK:- SearchItem
+//  SearchItem
 @Parcelize
 data class SearchItem(val id: Int = 0, val name: String? = null) : Parcelable, SearchItemInterface {
     override fun id(): Int = id

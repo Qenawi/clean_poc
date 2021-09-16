@@ -5,7 +5,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import java.lang.reflect.Type
 
-//MARK:- CalendarItem @Docs
+// CalendarItem @Docs
 @Entity
 data class CalendarItem(
     @PrimaryKey val id: Int,

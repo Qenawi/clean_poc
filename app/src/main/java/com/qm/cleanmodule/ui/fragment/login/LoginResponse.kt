@@ -3,7 +3,7 @@ package com.qm.cleanmodule.ui.fragment.login
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import kotlinx.parcelize.Parcelize
-//MARK:- LoginResponse @Docs
+// LoginResponse @Docs
 @Parcelize
 data class LoginResponse(
 

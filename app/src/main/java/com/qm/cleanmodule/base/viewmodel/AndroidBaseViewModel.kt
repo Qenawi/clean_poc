@@ -6,19 +6,18 @@ import androidx.databinding.ObservableBoolean
 import androidx.databinding.PropertyChangeRegistry
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
-import com.qm.cleanmodule.ui.fragment.home.HomeResponse
 import com.qm.cleanmodule.util.Resource
 
-//MARK:- AndroidBaseViewModel@Docs
+// AndroidBaseViewModel@Docs
 open class AndroidBaseViewModel(val app: Application) : AndroidViewModel(app), Observable {
     private val mCallBacks: PropertyChangeRegistry = PropertyChangeRegistry()
     val mutableLiveData = MutableLiveData<Any?>()
     var isLoading = ObservableBoolean()
 
-    //MARK:- for network
+    // for network
     val resultLiveData = MutableLiveData<Resource<Any?>>()
 
-    //MARK:- todo @Mayaman add Docs
+    // todo @Mayaman add Docs
     override fun removeOnPropertyChangedCallback(callback: Observable.OnPropertyChangedCallback?) {
         mCallBacks.remove(callback)
     }

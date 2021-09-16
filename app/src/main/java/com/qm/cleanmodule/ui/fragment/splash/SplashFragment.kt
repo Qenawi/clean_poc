@@ -9,7 +9,7 @@ import com.qm.cleanmodule.databinding.FragmentSplashBinding
 import com.qm.cleanmodule.util.navigateSafe
 import com.qm.cleanmodule.util.observe
 
-//MARK:-  SplashFragment  @Docs
+//  SplashFragment  @Docs
 class SplashFragment : BaseFragment<FragmentSplashBinding, SplashViewModel>() {
   override fun pageTitle(): String? = null
 

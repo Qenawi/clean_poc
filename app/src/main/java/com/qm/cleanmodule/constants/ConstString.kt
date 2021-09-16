@@ -1,7 +1,7 @@
 package com.qm.cleanmodule.constants
 
 
-//MARK:- ConstString @Docs
+// ConstString @Docs
 object ConstString {
     const val BASE_URL: String = "https://rickandmortyapi.com/api/"
     const val DEFAULT_LANG: String = "en"

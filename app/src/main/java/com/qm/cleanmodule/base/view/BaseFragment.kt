@@ -15,7 +15,7 @@ import com.qm.cleanmodule.util.replaceFragment
 import com.qm.cleanmodule.util.showKeyboard
 
 /**
- * Created by MahmoudAyman on 6/17/2020.
+ * Created by ninja on 6/17/2020.
  **/
 
 abstract class BaseFragment<B : ViewDataBinding, VM : ViewModel> :

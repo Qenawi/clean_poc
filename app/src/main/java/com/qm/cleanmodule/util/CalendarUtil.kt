@@ -4,7 +4,7 @@ import timber.log.Timber
 import java.text.SimpleDateFormat
 import java.util.*
 
-//MARK:- CalendarUtil @Docs
+// CalendarUtil @Docs
 object CalendarUtil {
 
     fun getComingDays(numOfDays: Int, currentDate: String?): ArrayList<String> { // date format 15/02/1995

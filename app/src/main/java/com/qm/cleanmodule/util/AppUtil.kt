@@ -20,7 +20,7 @@ import java.util.*
 import kotlin.collections.ArrayList
 
 /**
- * Created by MahmoudAyman on 8/25/2020.
+ * Created by ninja on 8/25/2020.
  **/
 
 object AppUtil {

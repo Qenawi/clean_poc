@@ -11,7 +11,7 @@ import kotlin.reflect.KProperty
 
 
 /**
- * Created by MahmoudAyman on 7/16/2020.
+ * Created by ninja on 7/16/2020.
  **/
 object SharedPrefUtil {
 

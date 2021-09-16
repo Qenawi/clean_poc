@@ -11,7 +11,7 @@ import java.util.*
 import kotlin.collections.ArrayList
 
 
-//MARK:- SearchAdapter @Docs
+// SearchAdapter @Docs
 class SearchAdapter(itemCallback: (SearchItemInterface) -> Unit) : BaseAdapter<SearchItemInterface>(itemCallback),
     Filterable {
     override fun layoutRes(): Int = R.layout.item_search_list_view

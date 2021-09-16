@@ -6,7 +6,7 @@ import com.qm.cleanmodule.constants.Codes
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
-//MARK:-  LoginViewModel @Docs
+//  LoginViewModel @Docs
 @HiltViewModel
 class LoginViewModel @Inject constructor(app: Application) : AndroidBaseViewModel(app) {
 

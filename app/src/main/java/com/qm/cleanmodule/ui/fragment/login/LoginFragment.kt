@@ -12,7 +12,7 @@ import com.qm.cleanmodule.util.navigateSafe
 import com.qm.cleanmodule.util.observe
 import javax.inject.Inject
 
-//MARK:- LoginFragment @Docs
+// LoginFragment @Docs
 class LoginFragment : BaseFragment<FragmentLoginBinding, LoginViewModel>() {
   override fun pageTitle(): String = ""
 
